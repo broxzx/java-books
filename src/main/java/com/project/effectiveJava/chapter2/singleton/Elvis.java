@@ -1,4 +1,4 @@
-package com.project.chapter2.singleton;
+package com.project.effectiveJava.chapter2.singleton;
 
 public class Elvis {
 

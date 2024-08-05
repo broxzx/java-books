@@ -1,4 +1,4 @@
-package com.project.chapter2.staticFabricMethods;
+package com.project.effectiveJava.chapter2.staticFabricMethods;
 
 import lombok.Data;
 

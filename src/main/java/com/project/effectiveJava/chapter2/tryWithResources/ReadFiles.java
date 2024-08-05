@@ -1,4 +1,4 @@
-package com.project.chapter2.tryWithResources;
+package com.project.effectiveJava.chapter2.tryWithResources;
 
 import java.io.*;
 

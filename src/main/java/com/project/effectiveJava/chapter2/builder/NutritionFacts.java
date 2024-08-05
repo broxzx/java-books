@@ -1,4 +1,4 @@
-package com.project.chapter2.builder;
+package com.project.effectiveJava.chapter2.builder;
 
 import lombok.Data;
 import lombok.ToString;
