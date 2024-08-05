@@ -1,4 +1,4 @@
-package com.project.modernJava.function;
+package com.project.modernJava.lambda.function;
 
 import java.util.List;
 import java.util.function.Function;

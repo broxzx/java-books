@@ -1,4 +1,4 @@
-package com.project.modernJava.consumer;
+package com.project.modernJava.lambda.consumer;
 
 import java.util.List;
 import java.util.function.Consumer;
