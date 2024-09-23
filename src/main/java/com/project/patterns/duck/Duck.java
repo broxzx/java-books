@@ -2,11 +2,13 @@ package com.project.patterns.duck;
 
 import com.project.patterns.movements.FlyBehaviour;
 import com.project.patterns.sounds.QuackBehaviour;
+import lombok.Setter;
 
+@Setter
 public abstract class Duck {
 
-    private final FlyBehaviour flyBehaviour;
-    private final QuackBehaviour quackBehaviour;
+    private FlyBehaviour flyBehaviour;
+    private QuackBehaviour quackBehaviour;
 
     public void makeSound() {
         quackBehaviour.quack();
