@@ -1,4 +1,4 @@
-package com.project.patterns.movements;
+package com.project.patterns.strategy.movements;
 
 public class FlyNoWay implements FlyBehaviour {
 

@@ -1,7 +1,7 @@
-package com.project.patterns.duck;
+package com.project.patterns.strategy.duck;
 
-import com.project.patterns.movements.FlyBehaviour;
-import com.project.patterns.sounds.QuackBehaviour;
+import com.project.patterns.strategy.movements.FlyBehaviour;
+import com.project.patterns.strategy.sounds.QuackBehaviour;
 import lombok.Setter;
 
 @Setter

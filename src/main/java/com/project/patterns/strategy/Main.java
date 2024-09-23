@@ -1,9 +1,9 @@
-package com.project.patterns;
+package com.project.patterns.strategy;
 
-import com.project.patterns.duck.RedheadDuck;
-import com.project.patterns.duck.RubberDuck;
-import com.project.patterns.movements.FlyNoWay;
-import com.project.patterns.sounds.Squeak;
+import com.project.patterns.strategy.duck.RedheadDuck;
+import com.project.patterns.strategy.duck.RubberDuck;
+import com.project.patterns.strategy.movements.FlyNoWay;
+import com.project.patterns.strategy.sounds.Squeak;
 
 public class Main {
 

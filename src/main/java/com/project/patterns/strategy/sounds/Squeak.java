@@ -1,4 +1,4 @@
-package com.project.patterns.sounds;
+package com.project.patterns.strategy.sounds;
 
 public class Squeak implements QuackBehaviour {
 
