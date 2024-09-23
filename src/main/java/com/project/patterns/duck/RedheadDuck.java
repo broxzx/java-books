@@ -5,8 +5,8 @@ import com.project.patterns.sounds.Quack;
 
 public class RedheadDuck extends Duck {
 
-    public RedheadDuck(FlyWithWings flyBehaviour, Quack quackBehaviour) {
-        super(flyBehaviour, quackBehaviour);
+    public RedheadDuck() {
+        super(new FlyWithWings(), new Quack());
     }
 
 }

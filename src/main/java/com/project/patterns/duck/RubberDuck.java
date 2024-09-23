@@ -5,8 +5,8 @@ import com.project.patterns.sounds.Squeak;
 
 public class RubberDuck extends Duck {
 
-    public RubberDuck(FlyNoWay flyBehaviour, Squeak quackBehaviour) {
-        super(flyBehaviour, quackBehaviour);
+    public RubberDuck() {
+        super(new FlyNoWay(), new Squeak());
     }
 
 }
