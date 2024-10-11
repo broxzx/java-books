@@ -1,4 +1,4 @@
-package com.project.patterns.observer;
+package com.project.patterns.observer.weather;
 
 import lombok.Getter;
 

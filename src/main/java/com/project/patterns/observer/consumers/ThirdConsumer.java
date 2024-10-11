@@ -1,4 +1,6 @@
-package com.project.patterns.observer;
+package com.project.patterns.observer.consumers;
+
+import com.project.patterns.observer.weather.UpdateBehaviour;
 
 public class ThirdConsumer implements UpdateBehaviour {
 
