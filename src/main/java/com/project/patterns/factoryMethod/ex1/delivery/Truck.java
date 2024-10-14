@@ -1,6 +1,6 @@
-package com.project.patterns.factoryMethod.delivery;
+package com.project.patterns.factoryMethod.ex1.delivery;
 
-import com.project.patterns.factoryMethod.factory.Transport;
+import com.project.patterns.factoryMethod.ex1.factory.Transport;
 
 public class Truck implements Transport {
 

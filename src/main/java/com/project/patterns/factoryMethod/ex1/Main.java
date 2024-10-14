@@ -1,8 +1,8 @@
-package com.project.patterns.factoryMethod;
+package com.project.patterns.factoryMethod.ex1;
 
-import com.project.patterns.factoryMethod.delivery.RoadLogistic;
-import com.project.patterns.factoryMethod.delivery.SeaLogistic;
-import com.project.patterns.factoryMethod.factory.Transport;
+import com.project.patterns.factoryMethod.ex1.delivery.RoadLogistic;
+import com.project.patterns.factoryMethod.ex1.delivery.SeaLogistic;
+import com.project.patterns.factoryMethod.ex1.factory.Transport;
 
 public class Main {
 

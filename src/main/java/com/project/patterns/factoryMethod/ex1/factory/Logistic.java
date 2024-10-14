@@ -1,4 +1,4 @@
-package com.project.patterns.factoryMethod.factory;
+package com.project.patterns.factoryMethod.ex1.factory;
 
 public interface Logistic {
 
