@@ -1,21 +1,31 @@
 package com.project.patterns.factoryMethod.ex1;
 
-import com.project.patterns.factoryMethod.ex1.delivery.RoadLogistic;
-import com.project.patterns.factoryMethod.ex1.delivery.SeaLogistic;
+import com.project.patterns.factoryMethod.ex1.delivery.Ship;
+import com.project.patterns.factoryMethod.ex1.delivery.Truck;
 import com.project.patterns.factoryMethod.ex1.factory.Transport;
+
+import java.util.Random;
 
 public class Main {
 
-    public static void main(String... args) {
-        RoadLogistic roadLogistic = new RoadLogistic();
-        roadLogistic.planDelivery();
-        Transport roadTransport = roadLogistic.createTransport();
-        roadTransport.deliver();
+    private static Transport transport;
 
-        SeaLogistic seaLogistic = new SeaLogistic();
-        seaLogistic.planDelivery();
-        Transport seaTransport = seaLogistic.createTransport();
-        seaTransport.deliver();
+    public static void main(String... args) {
+        configure();
+        doBusinessLogic();
     }
+
+    public static void configure() {
+        if ((new Random().nextInt() * 3) == 1) {
+            transport = new Ship();
+        } else {
+            transport = new Truck();
+        }
+    }
+
+    public static void doBusinessLogic() {
+        transport.deliver();
+    }
+
 
 }
